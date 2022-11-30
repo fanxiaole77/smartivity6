@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEA"
+    tools:context=".UI.activity.bus.BusorderActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/s"
+        app:title="提交订单"
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+ <androidx.cardview.widget.CardView
+     android:layout_marginTop="20dp"
+     app:cardCornerRadius="20dp"
+     android:layout_gravity="center_horizontal"
+     android:layout_width="370dp"
+     android:layout_height="wrap_content">
+
+     <LinearLayout
+         android:padding="10dp"
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:text="乘客姓名:"
+                 android:textSize="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <TextView
+                 android:id="@+id/tv_name12"
+                 android:textSize="20sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:text="手机号:"
+                 android:textSize="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <TextView
+                 android:id="@+id/tv_phone12"
+                 android:textSize="20sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:text="上车地点:"
+                 android:textSize="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <TextView
+                 android:id="@+id/tv_start12"
+                 android:textSize="20sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+         </LinearLayout>
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:text="下车地点:"
+                 android:textSize="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <TextView
+                 android:id="@+id/tv_end12"
+                 android:textSize="20sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+             <TextView
+                 android:text="乘车日期:"
+                 android:textSize="20dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+             <TextView
+                 android:id="@+id/tv_time12"
+                 android:textSize="20sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"/>
+
+         </LinearLayout>
+
+     </LinearLayout>
+
+ </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fff"
+        android:text="提交订单"
+        android:background="@drawable/bj"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_add"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_activity_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="首页"/>
+
+    <item
+        android:id="@+id/nav_activity_activity"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="志愿活动"/>
+
+    <item
+        android:id="@+id/nav_activity_my"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="我的活动"/>
+
+
+</menu>

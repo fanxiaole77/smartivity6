@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.activity.bus.BusAllActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/a"
+        app:title="编辑信息"
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:paddingLeft="10dp"
+            android:hint="请输入姓名"
+            android:background="@drawable/no_bi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_phone"
+            android:paddingLeft="10dp"
+            android:hint="请输入手机号"
+            android:background="@drawable/no_bi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_start"
+            android:paddingLeft="10dp"
+            android:hint="请输上车地点"
+            android:background="@drawable/no_bi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_end"
+            android:paddingLeft="10dp"
+            android:hint="请输入下车地点"
+            android:background="@drawable/no_bi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <Button
+            android:id="@+id/btn_3"
+            android:background="@drawable/bj"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:text="下一步"
+            android:layout_marginTop="50dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

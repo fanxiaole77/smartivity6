@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcity6">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".SmartCityApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".UI.china.JkActivity"></activity>
+        <activity android:name=".UI.china.YYActivity" />
+        <activity android:name=".UI.china.PhActivity" />
+        <activity android:name=".UI.china.ContentActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.ywjh.cameraalbumtest.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".UI.china.PhoneActivity" />
+        <activity android:name=".UI.activity.volunteer.VoContentActivity" />
+        <activity android:name=".UI.activity.volunteer.VolunteerActivity" />
+        <activity android:name=".UI.activity.movie.MovieContentActivity" />
+        <activity android:name=".UI.activity.movie.MovieActivity" />
+        <activity android:name=".UI.activity.oredr.AddCarActivity" />
+        <activity android:name=".UI.activity.oredr.OrderActivity" />
+        <activity android:name=".UI.activity.bus.BusorderActivity" />
+        <activity android:name=".UI.activity.bus.BusAllActivity" />
+        <activity android:name=".UI.activity.bus.BusDateActivity" />
+        <activity android:name=".UI.activity.bus.BusContentActivity" />
+        <activity android:name=".UI.activity.bus.BusActivity" />
+        <activity android:name=".UI.me.FeedActivity" />
+        <activity android:name=".UI.me.PassActivity" />
+        <activity android:name=".UI.me.UserActivity" />
+        <activity android:name=".UI.home.NewsContentActivity" />
+        <activity android:name=".UI.home.SvActivity" />
+        <activity android:name=".UI.action.LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UI.activity.LaucnchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

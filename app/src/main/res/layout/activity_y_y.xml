@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.china.YYActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="预约养老"
+        android:id="@+id/er"
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_7q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_8q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_9q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_4q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_5q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_6q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jg2"
+                        android:layout_width="150dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+                        android:text="石家庄藁城区老年公寓"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="170dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="170dp"
+                        android:text="28.25公里"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <Button
+                        android:text="预约"
+                        android:background="#03A9F4"
+                        android:id="@+id/btn_3q"
+                        android:layout_marginLeft="320dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

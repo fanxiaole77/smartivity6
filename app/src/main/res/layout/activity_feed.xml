@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".UI.me.FeedActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="意见反馈"
+        android:id="@+id/e"
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/et_feed"
+        android:hint="反馈内容"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/no_bi"
+        android:layout_width="370dp"
+        android:maxLength="6"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/save_feed"
+        android:layout_marginTop="20dp"
+        android:text="发布"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

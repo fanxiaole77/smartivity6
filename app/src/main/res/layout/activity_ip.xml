@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    tools:context=".UI.activity.IpActivity">
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:id="@+id/et_ip"
+        android:hint="请设置IP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/et_dk"
+        android:hint="请设置端口"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/bj"
+        android:id="@+id/btn_save"
+        android:layout_marginTop="20sp"
+        android:text="保存"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".UI.activity.volunteer.fragment.VolunteerHomeFragment">
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <com.youth.banner.Banner
+               android:id="@+id/vo_banner"
+               android:layout_width="match_parent"
+               android:layout_height="200dp"/>
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/rv_vo_news"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+
+
+       </LinearLayout>
+
+   </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
